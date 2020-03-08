@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>献给我的小星星</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+
+<body>
+    <div class="content">
+        <img src="./images/bg.jpeg" alt="" class="bg">
+        <div class="text">
+            <h1>我的小星儿</h1>
+            <h2>祝贺你又长大一岁</h2>
+            <h2>这也是我为你过的第一个生日</h2>
+        </div>
+        <div class="index_img">
+            <div class="swiper-container" id="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/index.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img1.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img2.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img3.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img4.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img5.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img6.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img7.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img9.jpg" alt="" class="pi"></div>
+                    <div class="swiper-slide"><img src="./images/img10.jpg" alt="" class="pi"></div>
+                </div>
+                <!-- <div class="swiper-button-prev"></div> -->
+                <!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                <!-- <div class="swiper-button-next"></div> -->
+                <!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="btn">
+            <a href="./pages/page2.html">下一页</a>
+        </div>
+        <audio height="0" width="0" autoplay loop>
+            <source src="./images/bgm.mp3" type="audio/mpeg"></source>
+        </audio>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        var mySwiper = new Swiper('#swiper', {
+            loop: true,
+            autoplay: {
+                delay: 1500,
+            },
+            centeredSlides: true,
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+    })
+</script>
+
+</html>

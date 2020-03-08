@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+.index_img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.index_img img {
+    width: 100%;
+}
+
+.btn {
+    font-size: 24px;
+    /* margin: 10 auto; */
+    text-align: center;
+}
+
+.btn a {
+    color: rgb(85, 26, 139);
+}
+
+.pict {
+    width: 47%;
+    height: 300px;
+    margin: 20px 1%;
+}
+
+.pi {
+    width: 330px;
+    height: 450px;
+}
+
+.movie {
+    width: 100%;
+    text-align: center;
+}
+
+.index_pic {
+    width: 48%;
+    height: 300px;
+}
+
+.star {
+    width: 100%;
+    height: 300px;
+}
+
+.bir {
+    width: 50%;
+    height: 300px;
+}
+
+.tt {
+    width: 50%;
+    float: left;
+}
+
+.mm {
+    width: 50%;
+    float: left;
+}
+
+.text1 {
+    color: rgb(217, 41, 105);
+}
+
+.text2 {
+    color: rgb(152, 56, 115);
+}
+
+.text3 {
+    color: rgb(106, 30, 102);
+}
+
+.text4 {
+    color: rgb(136, 73, 159);
+}
+
+.text5 {
+    color: rgb(34, 67, 146);
+}
+
+.text6 {
+    color: rgb(21, 46, 110);
+}
+
+.page3_text1 {
+    color: rgb(16, 112, 173);
+}
+
+.page3_text2 {
+    color: rgb(0, 123, 174);
+}
+
+.page3_text3 {
+    color: rgb(19, 140, 214);
+}
+
+.page3_text4 {
+    color: rgb(21, 168, 164);
+}
+
+.page3_text5 {
+    color: rgb(22, 187, 189);
+}
+
+.page3_text6 {
+    color: rgb(86, 191, 82);
+}
+
+.page4_text1 {
+    color: rgb(97, 201, 92);
+}
+
+.page4_text2 {
+    color: rgb(141, 195, 75);
+}
+
+.page4_text3 {
+    color: rgb(188, 235, 112);
+}
+
+.page4_text4 {
+    color: rgb(254, 253, 31);
+}
+
+.page4_text5 {
+    color: rgb(245, 232, 1);
+}
+
+.page4_text6 {
+    color: rgb(253, 223, 71);
+}
+
+.page5_text1 {
+    color: rgba(27, 4, 230, 0.6);
+}
+
+.page5_text2 {
+    color: rgba(27, 4, 230, 0.6);
+}
+
+.page5_text3 {
+    color: rgba(27, 4, 230, 0.6);
+}
+
+.page5_text4 {
+    color: rgba(27, 4, 230, 0.6);
+}
+
+.page5_text5 {
+    color: rgba(27, 4, 230, 0.6);
+}
+
+.page5_text6 {
+    color: rgba(27, 4, 230, 0.6);
+}
+
+.page5_text7 {
+    color: rgba(255, 0, 0, 0.4) !important;
+}
+
+.page6_text1 {
+    color: red;
+    font-size: 18px !important;
+}
+
+.page6_text2 {
+    color: orange;
+    font-size: 18px !important;
+}
+
+.page6_text3 {
+    color: yellow;
+    font-size: 18px !important;
+}
+
+.page6_text4 {
+    color: green;
+    font-size: 18px !important;
+}
+
+.page6_text5 {
+    color: cyan;
+    font-size: 18px !important;
+}
+
+.page6_text6 {
+    color: blue;
+    font-size: 18px !important;
+}
+
+.page6_text7 {
+    color: purple;
+    font-size: 18px !important;
+}
